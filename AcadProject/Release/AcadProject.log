@@ -1,0 +1,28 @@
+﻿Build started 12/27/2013 12:07:39 AM.
+     1>Project "C:\Users\Gururaj\documents\visual studio 2010\Projects\AcadProject\AcadProject\AcadProject.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\AcadProject.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Users\Gururaj\documents\visual studio 2010\Projects\AcadProject\Release\AcadProject.dll) does not match the Linker's OutputFile property value (C:\Users\Gururaj\documents\visual studio 2010\Projects\AcadProject\AcadProject\Release\AcadMain.arx). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(991,5): warning MSB8012: TargetExt(.dll) does not match the Linker's OutputFile property value (.arx). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(AcadProject) does not match the Linker's OutputFile property value (AcadMain). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Release/AcadMain.arx" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\global_libraries\ObjectArx19_0\lib-win32" /LIBPATH:C:\global_libraries\ObjectArx19_0\inc netapi32.lib acISMobj19.lib acad.lib acdb19.lib ac1st19.lib accore.lib acge19.lib rxapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:".\AcadProject.DEF" /MANIFEST /ManifestFile:"Release\AcadProject.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Gururaj\documents\visual studio 2010\Projects\AcadProject\Release\AcadProject.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Gururaj\documents\visual studio 2010\Projects\AcadProject\Release\AcadProject.lib" /MACHINE:X86 /DLL Release\AcadMain.obj
+            Creating library C:\Users\Gururaj\documents\visual studio 2010\Projects\AcadProject\Release\AcadProject.lib and object C:\Users\Gururaj\documents\visual studio 2010\Projects\AcadProject\Release\AcadProject.exp
+     1>AcadProject.exp : warning LNK4070: /OUT:Project.dll directive in .EXP differs from output filename 'Release/AcadMain.arx'; ignoring directive
+         Generating code
+         Finished generating code
+     1>AcadProject.exp : warning LNK4070: /OUT:Project.dll directive in .EXP differs from output filename 'Release/AcadMain.arx'; ignoring directive
+     1>rxapi.lib(libinit.obj) : warning LNK4099: PDB 'rxapi_cl.pdb' was not found with 'rxapi.lib(libinit.obj)' or at 'C:\Users\Gururaj\documents\visual studio 2010\Projects\AcadProject\Release\rxapi_cl.pdb'; linking object as if no debug info
+         AcadProject.vcxproj -> C:\Users\Gururaj\documents\visual studio 2010\Projects\AcadProject\Release\AcadProject.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"Release/AcadMain.arx;#2" /manifest Release\AcadProject.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\AcadProject.unsuccessfulbuild".
+         Touching "Release\AcadProject.lastbuildstate".
+     1>Done Building Project "C:\Users\Gururaj\documents\visual studio 2010\Projects\AcadProject\AcadProject\AcadProject.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.29
