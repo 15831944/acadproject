@@ -1,15 +1,19 @@
-﻿Build started 12/29/2013 7:36:29 PM.
-     1>Project "C:\Users\Gururaj\documents\visual studio 2010\Projects\AcadProject\AcadProject\AcadProject.vcxproj" on node 2 (build target(s)).
+﻿Build started 1/1/2014 11:33:28 PM.
+     1>Project "C:\Users\Gururaj\Documents\Visual Studio 2010\Projects\AcadProject\AcadProject\AcadProject.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "x64\Release\AcadProject.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /IC:\global_libraries\ObjectArx19_0\inc /Zi /nologo /W3 /WX- /Od /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D ACADPROJECT_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt AcadMain.cpp
          AcadMain.cpp
-     1>AcadMain.cpp(31): error C2143: syntax error : missing ')' before ';'
-     1>AcadMain.cpp(31): error C2664: 'deleteAcRxClass' : cannot convert parameter 1 from 'int' to 'AcRxClass *'
-                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
-     1>Done Building Project "C:\Users\Gururaj\documents\visual studio 2010\Projects\AcadProject\AcadProject\AcadProject.vcxproj" (build target(s)) -- FAILED.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Users\Gururaj\Documents\Visual Studio 2010\Projects\AcadProject\x64\Release\AcadProject.dll) does not match the Linker's OutputFile property value (C:\Users\Gururaj\Documents\Visual Studio 2010\Projects\AcadProject\AcadProject\Release\AcadMain.arx). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(991,5): warning MSB8012: TargetExt(.dll) does not match the Linker's OutputFile property value (.arx). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(AcadProject) does not match the Linker's OutputFile property value (AcadMain). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"Release/AcadMain.arx" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\global_libraries\ObjectArx19_0\lib-x64" /LIBPATH:C:\global_libraries\ObjectArx19_0\inc netapi32.lib acISMobj19.lib acad.lib acdb19.lib ac1st19.lib accore.lib acge19.lib rxapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:".\AcadProject.DEF" /MANIFEST /ManifestFile:"x64\Release\AcadProject.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Gururaj\Documents\Visual Studio 2010\Projects\AcadProject\x64\Release\AcadProject.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Gururaj\Documents\Visual Studio 2010\Projects\AcadProject\x64\Release\AcadProject.lib" /MACHINE:X64 /DLL x64\Release\AcadCreator.obj
+         x64\Release\AcadMain.obj
+     1>LINK : fatal error LNK1104: cannot open file 'Release/AcadMain.arx'
+     1>Done Building Project "C:\Users\Gururaj\Documents\Visual Studio 2010\Projects\AcadProject\AcadProject\AcadProject.vcxproj" (build target(s)) -- FAILED.
 
 Build FAILED.
 
-Time Elapsed 00:00:03.65
+Time Elapsed 00:00:02.17
